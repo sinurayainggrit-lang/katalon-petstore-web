@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>All test case</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>d34b2ff8-8178-41c1-b301-b99ed6dc9f6a</testSuiteGuid>
+   <testCaseLink>
+      <guid>4ed2ea7c-860f-4899-be2a-59d29bbb9a2b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Login/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e09e474e-6d94-4eef-b641-2110c059b1e1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/JPetStore/Login/login-internal-data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e09e474e-6d94-4eef-b641-2110c059b1e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>406deab7-8145-417d-9b40-5121e454602a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e09e474e-6d94-4eef-b641-2110c059b1e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5db79f38-e84e-4a3e-a977-d40038f48681</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e09e474e-6d94-4eef-b641-2110c059b1e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>8604b217-5841-46e9-8cc0-48c42c79e77e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e09e474e-6d94-4eef-b641-2110c059b1e1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>597c8c34-7b54-47be-839f-128889cdcc38</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>88894ce0-4c20-4d5e-90c1-07fb551a74df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Home Page/search-feature</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>432e4971-d15b-4f17-b6f8-431ef2805be9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/JPetStore/Home Page/search-internal-data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>432e4971-d15b-4f17-b6f8-431ef2805be9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>5b23c718-eca4-4e1a-ae1f-304ce799f87e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>432e4971-d15b-4f17-b6f8-431ef2805be9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>pet</value>
+         <variableId>add3dc1f-c10e-4484-b345-cf0fad06d43f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>432e4971-d15b-4f17-b6f8-431ef2805be9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>96f5becf-d2d2-4e74-bef7-6dd6bb0b402e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1f8e4b3a-7f01-4510-870c-a0858dbec530</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Shopping Cart/Add Pet to Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fb02b219-d62a-4b01-85d2-68966519a3fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Shopping Cart/update quantity</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4ea2571e-d512-415d-a3ca-77ffec096952</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Shopping Cart/remove product</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c23b5280-ae71-42c7-9ac4-a6262368f917</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JPetStore/Home Page/Logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
